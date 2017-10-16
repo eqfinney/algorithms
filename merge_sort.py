@@ -26,6 +26,7 @@ def merge_sort(unsorted_list):
 
     else:
         # split the lists in half
+        import ipdb; ipdb.set_trace()
         first_list = merge_sort(unsorted_list[:int(n/2)])
         second_list = merge_sort(unsorted_list[int(n/2):])
 
