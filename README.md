@@ -1,5 +1,5 @@
-# A Collection of Algorithms
-## Author: Emily Quinn Finney
+## A Collection of Algorithms
+Author: Emily Quinn Finney
 
 My implementations of algorithms discussed in Stanford's Coursera Algorithms 
 specialization (https://www.coursera.org/specializations/algorithms). As per 
