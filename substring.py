@@ -1,3 +1,8 @@
+#
+# Gets the shortest unique substring containing all elements in an array
+# Author: Emily Quinn Finney
+#
+
 def get_shortest_unique_substring(arr, string):
     """
     >>> get_shortest_unique_substring(["A"], "")

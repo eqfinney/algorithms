@@ -70,6 +70,7 @@ def get_products(A, B, C, D, E, F, G, H):
 
     return p1, p2, p3, p4, p5, p6, p7
 
+
 if __name__ == '__main__':
     import doctest
     doctest.testmod()

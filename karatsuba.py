@@ -1,8 +1,6 @@
 # My implementation of a Karatsuba multiplication problem
-# Reminder about recursion!
 # Author: Emily Quinn Finney
 
-m = 0
 
 def karatsuba(num1, num2):
     """
@@ -10,6 +8,8 @@ def karatsuba(num1, num2):
     int1: an integer to be multiplied, even number of numbers
     int2: another integer to be multiplied, even number of numbers
     product: the product of int1 and int2
+    >>> karatsuba(10, 10)
+    100
     """
     
     n = len(num1)
@@ -35,10 +35,7 @@ def karatsuba(num1, num2):
 
         return first_value + (10**(n/2))*(second_value+third_value) + fourth_value
 
-num1 = '3141592653589793238462643383279502884197169399375105820974944592'
-num2 = '2718281828459045235360287471352662497757247093699959574966967627'
 
-product = karatsuba(num1, num2)
-print(' '.join(["My Karatsuba", str(product)]))
-print(' '.join(["Python's calculated value", str(int(num1)*int(num2))]))
-assert product == int(num1)*int(num2)
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod()

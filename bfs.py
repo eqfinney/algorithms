@@ -5,6 +5,7 @@
 
 from contraction import read_graph
 
+# TODO: add doctests to the code
 
 class BFSearcher:
 
